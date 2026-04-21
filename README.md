@@ -1,3 +1,5 @@
+<img width="700" height="400" alt="ospoOutreach_horizontalColor" src="https://github.com/user-attachments/assets/5d6c9339-22ee-4e46-a874-cbe8cd3ee663" />
+
 # OSPO and Academic Outreach Working Group
 
 This repository supports the PyTorch Foundation OSPO and Academic Outreach Working Group. The working group exists to help shape and support efforts that:
