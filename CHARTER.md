@@ -12,7 +12,6 @@ The Foundation’s portfolio includes PyTorch and additional foundation-hosted p
 
 ## 2) Program Purposes
 
-Establish an OSPO and Academic Outreach function within the PyTorch Foundation to:
 
 - Educate academia on open source AI best practices (governance, licensing, security, community operations, and sustainable maintainer practices) for students, researchers, and faculty to release their projects to open source, and for academia to educate foundations about the obligations under which academic researchers work.
 - Train academia on how to use and contribute to PyTorch Foundation-hosted projects—PyTorch, vLLM, Ray, and DeepSpeed—with a focus on reproducible research-to-production workflows.
