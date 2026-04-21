@@ -1,4 +1,4 @@
-# PyTorch Foundation OSPO and Academic Outreach Working Group
+# OSPO and Academic Outreach Working Group
 
 This repository supports the PyTorch Foundation OSPO and Academic Outreach Working Group. The working group exists to help shape and support efforts that:
 
