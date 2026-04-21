@@ -17,7 +17,7 @@ The Foundation’s portfolio includes PyTorch and additional foundation-hosted p
 - Train academia on how to use and contribute to PyTorch Foundation-hosted projects—PyTorch, vLLM, Ray, and DeepSpeed—with a focus on reproducible research-to-production workflows.
 - Create a fast track for academic open source projects to enter the PyTorch Ecosystem and, where appropriate, progress to foundation-hosted status via a transparent intake and governance path aligned with existing Foundation processes.
 
-## 3) Program Goals
+## 3) Goals
 
 ### G1: Open source AI capability uplift in academia
 
