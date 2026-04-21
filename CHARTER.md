@@ -10,7 +10,7 @@ The Foundation’s portfolio includes PyTorch and additional foundation-hosted p
 - DeepSpeed (training/orchestration)
 - Ray (distributed execution)
 
-## 2) Program Purposes
+## 2) Purpose
 
 
 - Educate academia on open source AI best practices (governance, licensing, security, community operations, and sustainable maintainer practices) for students, researchers, and faculty to release their projects to open source, and for academia to educate foundations about the obligations under which academic researchers work.
