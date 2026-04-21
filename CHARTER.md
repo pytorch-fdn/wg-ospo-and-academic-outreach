@@ -1,4 +1,4 @@
-# PyTorch Foundation OSPO & Academic Outreach Program Charter
+# PyTorch Foundation OSPO & Academic Outreach Working Group Charter
 
 ## 1) Background and Context
 
