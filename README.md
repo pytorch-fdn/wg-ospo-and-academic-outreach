@@ -13,6 +13,16 @@ This repository supports the PyTorch Foundation OSPO and Academic Outreach Worki
 
 The working group charter defines the mission, goals, scope, operating model, deliverables, and success criteria for this effort. [Read the Charter](./CHARTER.md) to learn about the expected goals, roles, deliverables, workflow, and operating model.
 
+## Chairs and Co-Chairs
+
+Chair and co-chairs are responsible for coordinating and running the working group, including setting meeting agendas, facilitating discussions, tracking action items, and helping ensure progress against the group’s goals and deliverables. For more information, please visit [chair documentation](./roles/README.md)
+
+| Name | Title | Organization | Status |
+| --- | --- | --- | --- |
+| George Chellapa | Chair |  Nvidia | Active |
+| Sumantro Mukherjee| Co-Chair | RedHat | Active |
+| Ana Jimenez | Co-Chair | Linux Foundation | Active | 
+
 ## Goals
 
 As established in the charter, this working group is centered on three primary goals:
@@ -88,6 +98,7 @@ Contributions that help advance the goals described in the charter are welcome. 
 - participating in our meeting sessions
 
 See [`CONTRIBUTING.md`](./CONTRIBUTING.md) for contribution guidelines
+
 
 ### Meetings
 
