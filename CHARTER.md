@@ -9,6 +9,8 @@ The Foundation’s portfolio includes PyTorch and additional foundation-hosted p
 - vLLM (inference/serving)
 - DeepSpeed (training/orchestration)
 - Ray (distributed execution)
+- Helion
+- SafeTensors
 
 ## 2) Purpose
 
