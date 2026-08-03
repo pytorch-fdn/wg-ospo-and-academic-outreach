@@ -114,11 +114,8 @@ Develop deeper, modular curriculum for graduate students and faculty, aligned to
 
 | Role | Responsibility |
 |---|---|
-| **CDT Lead** | Overall coordination of the workstream; owns the phased roadmap and delivery timeline |
-| **Survey Coordinator** | Designs, distributes, and analyzes the readiness survey; produces the results report |
-| **Content Authors** | Write blog posts, guides, and curriculum modules; may include student co-authors |
-| **Regional Champions** | On-the-ground contacts at target institutions who help with survey distribution, pilot coordination, and feedback |
-| **Reviewers** | WG members and PyTorch Foundation project maintainers who review materials for accuracy and alignment |
+| **CDT Lead** | Overall coordination of the workstream; owns the phased roadmap and delivery timeline | Souvik Hazra (Red Hat)
+| **Marketing** | Designs, distributes, co-ordinates with the Marketing Team; produces the results report(blogs,surveys,CTAs) | Steve Pousty (Red Hat)
 
 ## Success Metrics
 
