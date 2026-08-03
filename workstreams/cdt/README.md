@@ -19,16 +19,22 @@ CDT also supports **Track C (Academic Fast Track)** by producing the readiness r
 
 ## Regional Scope: Global Survey, Piloted with CURIOUS
 
-The initial CDT effort targets the **Asia-Pacific academic open source AI community**, with anchor partnerships at:
+The initial CDT will run the academic readiness survey across multiple regions, doing an initial pilot with the CURIOUS network and close connections with outside universities and research centers known by working group members or already part of the working group, leveraging the established relationships with their university and research-lab members before broader distribution.
 
 ### Pilot cohort:  CURIOUS network and WG-member connections
-- **IISc Bangalore** — Research labs in Computational and Data Sciences (CDS), Computer Science and Automation (CSA), and related departments
 
-### Singapore
-- **Student-led AI/ML clubs** — At institutions including NUS, NTU, SUTD, and SMU
-- **AI Singapore ecosystem** — Community programs and practitioner networks
+- **University of California system OSPOs** — coordinated with CROSS at UC Santa Cruz
+- **Harvard University OSPO**
+- **Stanford University OSPO**
+- **Other universities via the CURIOSS network** — from the Czech Republic, Germany, France, Spain, and others
+- **Other universities and research centers** — reached directly through WG members' existing relationships, including:
+   - **Student-led AI/ML clubs** — at institutions including NUS, NTU, SUTD, and SMU
+   - **AI Singapore ecosystem** — community programs and practitioner networks
+   - **IIT campuses** — student clubs and faculty with active AI/ML and open source engagement (IIT Bombay, IIT Delhi, IIT Madras, IIT Kharagpur, and others)
+   - **IISc Bangalore** — research labs in Computational and Data Sciences (CDS), Computer Science and Automation (CSA), and related departments
+   - **Universities from Australia**
 
-Future CDT cohorts may expand to other APAC regions, EMEA, and the Americas based on demand and WG capacity.
+University OSPOs, academic labs, and research centers interested in joining the CDT pilot cohort can be added to this list by open an issue in this repository with their institution and region, or reach out to a Working Group member
 
 ## Methodology
 
@@ -67,7 +73,7 @@ Understand the current state of open source engagement, barriers, tooling awaren
 - Identify anchor contacts willing to champion WG engagement locally
 - Analyze results and publish a summary report (shared back with respondents)
 
-**Output:** Survey results report, APAC ecosystem map, identified pilot cohort
+**Output:** Survey results report, Academic ecosystem map, identified pilot cohort
 
 ### Phase 2 — Student-Friendly Content
 
@@ -121,10 +127,9 @@ Develop deeper, modular curriculum for graduate students and faculty, aligned to
 
 | Metric | Target (first cohort) |
 |---|---|
-| Survey responses collected | 100+ across India and Singapore |
+| Survey responses collected | 20+ completes |
 | Institutions mapped in ecosystem directory | 10+ |
 | Blog posts published | 5 |
-| Starter kit forks/downloads | 50+ within 3 months of release |
 | Curriculum modules completed | 5 |
 | Pilot cohort institutions | 2-3 |
 | Student co-authors onboarded | 3-5 |
@@ -141,6 +146,6 @@ Develop deeper, modular curriculum for graduate students and faculty, aligned to
 ## How to Contribute
 
 - **Comment on CDT issues** in this repository to share ideas, volunteer for tasks, or provide feedback
-- **Volunteer as a regional champion** if you have connections at IIT, IISc, or Singapore institutions
+- **Volunteer as a regional champion** if you have connections with CURIOSS network and/or other universities / research labs
 - **Co-author content** — students and early-career researchers are encouraged to contribute blog posts and review curriculum drafts
 - See the [contribution guidelines](../../CONTRIBUTING.md) for general contribution process
