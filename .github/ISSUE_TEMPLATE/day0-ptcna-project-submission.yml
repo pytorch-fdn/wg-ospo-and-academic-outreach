@@ -1,0 +1,82 @@
+name: "PyTorch Projects: From Academia to Adoption"
+description: "Submit a project for consideration for the Day 0 event at PTCNA."
+title: "[PTCNA Project] ABCPQR"
+labels:
+  - "#day0PTCNA26"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## PyTorch Projects: From Academia to Adoption
+
+        Use this form to submit a project for consideration for the Day 0 event at PTCNA.
+        Update `ABCPQR` in the issue title with your project's short name before submitting.
+  - type: input
+    id: project_name
+    attributes:
+      label: Name of the project
+      placeholder: ABCPQR
+    validations:
+      required: true
+  - type: textarea
+    id: developers
+    attributes:
+      label: Name of developers
+      description: List the primary developers, maintainers, or contributors.
+      placeholder: |
+        Jane Doe
+        John Smith
+    validations:
+      required: true
+  - type: input
+    id: institute_name
+    attributes:
+      label: Name of institute
+      placeholder: University or research institute name
+    validations:
+      required: true
+  - type: input
+    id: github_repo
+    attributes:
+      label: GH repo
+      placeholder: https://github.com/org/repo
+    validations:
+      required: true
+  - type: input
+    id: documentation_link
+    attributes:
+      label: Documentation link
+      placeholder: https://example.com/docs
+    validations:
+      required: true
+  - type: dropdown
+    id: traveling_to_ptcna
+    attributes:
+      label: Are you traveling to PTCNA, if selected?
+      options:
+        - "Yes"
+        - "No"
+    validations:
+      required: true
+  - type: checkboxes
+    id: foundation_projects
+    attributes:
+      label: Name all foundation project it touches
+      description: Select all that apply.
+      options:
+        - label: vLLM
+        - label: PyTorch
+        - label: Ray
+        - label: safetensors
+        - label: Other
+  - type: dropdown
+    id: ecosystem_timeline
+    attributes:
+      label: Do you see this as an ecosystem project in
+      options:
+        - ">6 m"
+        - "6m - 1yo"
+        - "1yo - 2yo"
+        - "NA"
+    validations:
+      required: true
