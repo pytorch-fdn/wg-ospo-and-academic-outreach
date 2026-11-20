@@ -1,5 +1,7 @@
 # PyTorch Foundation OSPO & Academic Outreach Working Group Charter
 
+_Version 2.0 — November 20, 2026. This version updates the charter to align with the Working Group's defined 2027 plans and the approved budget._
+
 ## 1) Background and Context
 
 The PyTorch Foundation is part of the Linux Foundation and operates with formal member governance (Governing Board) and a Technical Advisory Council (TAC) that coordinates technical collaboration across Foundation technical projects.
@@ -12,32 +14,40 @@ The Foundation’s portfolio includes PyTorch and additional foundation-hosted p
 - Helion
 - SafeTensors
 
+Much promising AI work starts in university research, but many projects stop when the paper, the course, or the grant ends. In 2026, the Working Group started this work with the [first academic workshop](https://pytorch.org/blog/from-research-project-to-open-source-ecosystem-bring-your-academic-pytorch-project-to-pytorchcon-na/) and the [TinyTorch use case](https://pytorch.org/blog/tinytorch-dont-just-import-pytorch-build-it/).
+
+For 2027, the Governing Board approved the Working Group's budget request for a pilot program. See the [approval announcement on the ospo-outreach mailing list](https://lists.pytorch.org/g/ospo-outreach/message/9).
+
 ## 2) Purpose
 
+**Mission: help bring the next vLLM to the PyTorch Foundation.**
 
-- Educate academia on open source AI best practices (governance, licensing, security, community operations, and sustainable maintainer practices) for students, researchers, and faculty to release their projects to open source, and for academia to educate foundations about the obligations under which academic researchers work.
-- Train academia on how to use and contribute to PyTorch Foundation-hosted projects—PyTorch, vLLM, Ray, and DeepSpeed—with a focus on reproducible research-to-production workflows.
-- Create a fast track for academic open source projects to enter the PyTorch Ecosystem and, where appropriate, progress to foundation-hosted status via a transparent intake and governance path aligned with existing Foundation processes.
+- Connect academic teams with the Foundation’s maintainers, member companies, and open source expertise, so that promising academic work can become sustainable open source projects.
+- Educate students, researchers, and faculty on open source AI best practices (licensing, governance, documentation, contributor onboarding, and maintainer succession), and help foundations understand the obligations under which academic researchers work.
+- Create a path for academic open source projects to enter the PyTorch Ecosystem and, where appropriate, become candidates for Foundation hosting via a transparent intake and governance path aligned with existing Foundation processes.
+
+Finding “the next vLLM” is a long-term ambition. Success in 2027 means a sustainable path from academic discovery to sustained community participation.
 
 ## 3) Goals
 
-### G1: Open source AI capability uplift in academia
+### G1: Sustainable academic open source projects
 
-- Advocate for open source, and empower researchers to publish, govern, and maintain open source AI projects responsibly and sustainably.
-- Increase the number of academic contributors who can participate effectively in PyTorch Foundation technical communities.
+- Support university groups: connect student and research projects with mentors, resources, and peers throughout the year.
+- Help projects become sustainable with guidance on licensing, governance, documentation, contributor onboarding, and maintainer succession.
 
-### G2: Adoption and contribution to Foundation-hosted projects
+### G2: Accessible participation and contribution
 
-- Increase academic usage of PyTorch Foundation-hosted projects in research and teaching.
-- Increase upstream contributions from academia (PRs, issues, discussions, working group participation).
+- Make participation accessible to students and researchers through a free academic workshop, a presence at a scientific conference, and student travel grants.
+- Increase the number of academic contributors who continue to participate in PyTorch Foundation communities after the workshop.
+- Extend the Foundation’s reach to more universities and academic OSPOs.
 
-### G3: Ecosystem and hosting pipeline (“academic fast track”)
+### G3: Hosting pipeline (“academic fast track”)
 
 Build a consistent, well-supported pathway for academic projects to:
 
 - meet baseline open source readiness (docs, license, governance, security basics, etc.),
 - become part of PyTorch Ecosystem projects, and
-- advance toward being a foundation-hosted project candidate with TAC sponsorship and review.
+- apply to become a PyTorch Foundation incubating project with TAC sponsorship and review.
 
 _See [Foundation Hosted Project documentation](https://github.com/pytorch-fdn/foundation-hosted) to learn more about foundation-hosted project requirements._
 
@@ -45,74 +55,53 @@ _See [Foundation Hosted Project documentation](https://github.com/pytorch-fdn/fo
 
 ### In scope
 
-- Curriculum, workshops, office hours, and reference materials for open source AI operations and the benefits of a project being accepted by the Foundation.
-- Technical enablement content and hands-on labs for PyTorch, vLLM, Ray, and DeepSpeed.
-- Academic project intake, readiness assessment, mentorship, and pipeline management aligned to Foundation processes (Foundation Hosted Project).
-- A “labs & OSPO directory” database (opt-in) with contact details and PyTorch-hosted project focus areas.
+- Mentoring of 2 to 5 academic projects, and connection of these projects with maintainers, member companies, and peers.
+- Sustainability guidance and a reusable repository template for academic projects.
+- A free academic workshop linked to PyTorch Conference, and a presence at one scientific conference (for example, NeurIPS).
+- Travel grants for students to attend PyTorch Conference North America.
+- Recognition of academic work: an award category, a digital badge, and swag.
+- Outreach: blog posts, promotion alongside the conference CFP, coordination with academic calendars, and an academic survey.
+- Academic project intake, readiness assessment, and pipeline management aligned to Foundation processes (Foundation Hosted Project).
 
 ### Out of scope (initially)
 
-- Direct funding commitments for academic projects (unless separately authorized by Foundation budget).
+- Direct funding of academic projects. The approved 2027 budget covers Working Group activities (events, student travel grants, and recognition), not grants to projects.
 - Managing lab internal IP policies (program provides guidance/templates; institutions retain policy control).
 - Acting as the sole maintainer for academic projects (program supports, mentors, and connects).
 
 ## 5) Strategy and Operating Model
 
-This section describes how goals will be achieved by outlining the key tracks (themes), the modules within each track, and the delivery mechanisms that will be used to produce and distribute the work.
+This section describes how goals will be achieved by outlining the key tracks (themes) and the delivery mechanisms that will be used to produce and distribute the work.
 
-### A. Academic Open Source AI Readiness Track
+### A. Academic Project Mentoring and Sustainability Track
 
-A modular curriculum designed for academic realities (students rotate, grants end, maintainers graduate).
+Guidance designed for academic realities (students rotate, grants end, maintainers graduate).
 
-#### Core modules
+#### Core topics
 
-- Open source project design: problem framing, scope boundaries, roadmap hygiene
-- Licensing & IP basics for academia; inbound/outbound licensing, contributor agreements (CLA vs DCO), alignment with academic licensing policies
-- Governance: roles, decision-making, maintainer succession, codes of conduct (aligned to OpenMVG)
-- Community operations: issue triage, PR review, release notes, contributor onboarding
-- Software supply chain security: vulnerability intake, coordinated disclosure, dependency policy
-- Reproducibility and benchmarking: datasets, evaluation harnesses, artifacts, and documentation norms
+- Licensing and IP basics for academia
+- Governance: roles, decision-making, maintainer succession
+- Documentation
+- Contributor onboarding
 
 #### Delivery mechanisms
 
-- Quarterly virtual “Open Source AI in Academia” online workshops / webinars
-- Quarterly OSPO/lab lead roundtables for peer exchange
-- Maintainer office hours (triage, governance reviews, release planning)
-- Reusable templates: `GOVERNANCE.md`, `MAINTAINERS`, `SECURITY.md`, `CONTRIBUTING.md`, release checklist (provided by OpenMVG)
+- Mentoring for a cohort of 2 to 5 academic projects throughout the year
+- A reusable repository template for academic projects
+- A readiness checklist mapped to Foundation requirements
 
 **Note:** Build on the PyTorch Foundation’s community programming infrastructure and templates where possible (from events, training, program scaffolding, etc).
 
-### B. PyTorch Foundation Projects Enablement Track (PyTorch, vLLM, Ray, DeepSpeed)
+### B. Academic Events and Student Access Track
 
-A technical enablement series that emphasizes interoperability across the hosted stack.
-
-#### Core modules
-
-##### PyTorch (model development)
-
-- Core training patterns, distributed basics, compiler/runtime considerations, packaging and deployment
-- Contribution pathways: RFC/design discussion norms, testing/CI expectations, documentation standards
-
-##### vLLM (inference and serving)
-
-- High-throughput inference patterns, serving architecture, benchmarking, backend considerations
-- Academic use cases: releasing reproducible inference pipelines, evaluation harnesses
-
-##### DeepSpeed (optimization and orchestration)
-
-- Efficient distributed training/inference, memory optimization patterns, cost/performance framing
-- “Research → scale” labs: taking experimental models to multi-node or large batch regimes
-
-##### Ray (distributed execution and orchestration)
-
-- Distributed data/compute patterns, scalable experimentation, cluster execution models
-- “End-to-end stack” lab: PyTorch training + Ray distributed execution + vLLM inference integration concepts
+Make PyTorch Conference the meeting place for students, researchers, academic OSPO leaders, and people who take an interest in open source and the PyTorch Foundation.
 
 #### Delivery mechanisms
 
-- A standardized workshop kit per project (slides, notebooks, reference repos, assignments)
-- University guest lecture program (train-the-trainer for faculty and teaching staff)
-- Academic calendar-friendly project/feature work that may culminate in upstream contributions to the upstream project
+- A free academic workshop linked to PyTorch Conference
+- A showcase at one other scientific conference (for example, NeurIPS)
+- Travel grants for up to 5 students to attend PyTorch Conference North America
+- Opportunities for member companies to meet student maintainers and to see new research projects early
 
 ### C. PyTorch Ecosystem Academic Fast Track
 
@@ -124,106 +113,37 @@ A pipeline that aligns with existing Foundation intake expectations:
 
 ##### Stage 0 — Discovery & triage
 
-- Light intake form with project description, repo, maintainers, license, dependency graph, user base, fit to PyTorch ecosystem
+- Identify candidate projects through the academic workshop, university groups, and outreach
 
-##### Stage 1 — Open Source Readiness Review (OSRR)
+##### Stage 1 — Mentoring and readiness checklist
 
-Checklist review to raise the project to a “ready to open source” baseline level:
+Mentoring to raise the project to a baseline level:
 
 - OS docs in place (`README`, `CONTRIBUTING`, governance, security)
-- CI/release basics
+- License and governance defined
 - Minimum maintainer continuity plan
-- Community channels and issue hygiene
+- Contributor onboarding path
 
 ##### Stage 2 — Ecosystem entry
 
 - Support the project in applying to become a PyTorch Ecosystem project (positioning, compatibility story, docs, community readiness)
 
-##### Stage 3 — Foundation-hosted candidacy
+##### Stage 3 — Foundation incubation application
 
 Support for projects with demonstrated impact, maturity, and strategic alignment to:
 
 - Identify a TAC sponsor and prep review materials
-- Follow the Foundation-hosted intake path (including the requirement that the project is already an approved ecosystem project)
+- Follow the Foundation-hosted intake path
 
-##### Stage 4 — Post-acceptance scaling
+### D. Outreach, Recognition, and Learning
 
-- Once hosted, onboard the project to Foundation norms: reporting, release governance, security handling, comms, community growth support
+#### Delivery mechanisms
 
-### D. Labs & OSPO Directory Database
-
-Create an actionable, up-to-date directory to support outreach, collaboration, and rapid matching between:
-
-- academic capabilities (labs),
-- institutional open source governance (university OSPOs / research software engineering groups),
-- PyTorch Foundation projects and mentorship needs
-
-#### Recommended data schema
-
-##### Institution
-
-- University/Institute name
-- Country/region
-- Primary website
-
-##### Lab / Group
-
-- Lab name
-- Department
-- PI/Director
-- Lab site
-- Research themes (controlled vocabulary)
-
-##### OSPO / Research Software org
-
-- Org name
-- Remit (policy vs engineering vs community)
-- Supported license policies
-- Onboarding requirements
-
-##### Contacts (opt-in)
-
-- Name
-- Role
-- Email
-- Preferred contact channel
-- Consent flag
-- Last-validated date
-
-##### Project portfolio
-
-- Project names
-- Repo URLs
-- Domains (LLM, CV, robotics, compilers, distributed, inference, etc.)
-- Maturity signals: license, governance, CI, release cadence, security policy
-
-##### Engagement history
-
-- Attended events
-- Mentorship interactions
-- Pipeline stage (if participating)
-- Notes with retention policy
-
-#### Collection and maintenance
-
-##### Sources
-
-- opt-in submissions via a public form,
-- curated outreach from conferences and workshops,
-- periodic validation emails (“confirm or update your entry”)
-
-##### Data stewardship
-
-- explicit consent for storing personal contact info,
-- role-based access controls (staff vs volunteer mentors),
-- retention policy (e.g., purge unvalidated contacts after N months),
-- compliance alignment with applicable privacy regulations (e.g., GDPR where relevant)
-
-#### Outputs
-
-- Quarterly “target list” for outreach campaigns (by domain, region, maturity)
-- Partner matching for contributor sprints and capstone projects
-- Funnel analytics (directory → event → contribution → ecosystem/hosting)
+- Blog posts that come from the academic events and the mentored projects
+- A “best academic project” award category in the PyTorch Foundation awards
+- A Credly badge, t-shirts, and stickers for participants
+- Promotion of WG activities alongside the conference CFP, coordinated with academic calendars
+- An academic survey to learn what universities need and to set 2028 priorities
 
 ## 6) Governance and Stakeholders
 
@@ -233,170 +153,82 @@ Create an actionable, up-to-date directory to support outreach, collaboration, a
 
 ### Core roles
 
-- **Program Director (OSPO & Academic Outreach):** strategy, partnerships, reporting, budget alignment
-- **Curriculum Lead:** open source AI and project-specific training assets
+- **Working Group Chair and Co-Chairs:** strategy, partnerships, reporting, budget alignment
 - **Ecosystem Pipeline Lead:** intake, readiness reviews, mentorship coordination, TAC interfacing
-- **Community & Events Lead:** workshops, office hours, campus engagements
-- **Data Steward:** labs/OSPO directory database operations, privacy and compliance
+- **Community & Events Lead:** academic workshop, conference presence, travel grants, recognition, blog posts and survey
 
 ### Operating cadence
 
-- Monthly internal program review (delivery, pipeline, risks)
-- Quarterly TAC-facing update (pipeline status, curriculum alignment)
-- Biannual Governing Board summary (outcomes and next-half priorities)
+- Monthly Working Group meetings (public)
+- Quarterly TAC update
+- End-of-2027 report to the Governing Board: results against the 2027 targets, and a recommendation on whether to continue in 2028
 
 ## 7) Key Deliverables
 
-### Within the first 6 months
+### 2027 deliverables
 
-- “Open Source AI in Academia” curriculum v1 + templates bundle
-- Four project enablement workshop kits (PyTorch, vLLM, Ray, DeepSpeed)
-- Academic Fast Track: intake form, OSRR checklist, reviewer rubric, mentorship pool
-- Labs & OSPO directory database v1 (schema, collection process, opt-in workflow)
-
-### Within 12 months
-
-- Repeatable university engagement playbook (guest lectures, capstones, contributor sprints, educator’s packet)
-- Published “Academic Project Readiness” guide mapped to ecosystem/hosting requirements
-- Annual Academic Open Source AI report (aggregated metrics, anonymized insights, case studies)
+- Reusable repository template and readiness checklist for academic projects
+- Mentoring cohort of 2 to 5 academic projects
+- Free academic workshop linked to PyTorch Conference
+- Showcase at one scientific conference (for example, NeurIPS)
+- Travel grants for up to 5 students to attend PyTorch Conference North America
+- 6 blog posts
+- “Best academic project” award category and Credly badge
+- Academic survey and 2028 priorities
+- End-of-2027 results report to the Governing Board
 
 These deliverables are expected to be supported by Linux Foundation staff and primarily driven by Working Group contributors / participants.
 
 ## 8) Metrics and Measurement
 
-The metrics below are intended as examples and a starting point for the working group, not as a final list of measures to be tracked. 
-The specific metrics used should depend on the working group’s priorities, deliverable focus, and measurement capacity. 
-As the working group progresses, these metrics may be refined, prioritized, expanded, or replaced.
+The Working Group reports results against the 2027 targets below. As the Working Group progresses, these metrics may be refined, prioritized, expanded, or replaced.
 
-### A. Academic OSAI Readiness Track (Objective 1)
+### A. Projects
 
-- number of workshops delivered
-- number of universities reached
-- number of attendees and completions
-- Pre/post self-assessments of OSPO competency (governance, licensing, security, CI, releases)
-- number of labs adopting standard open source governance artifacts (`SECURITY.md`, `GOVERNANCE.md`, release process)
-- Satisfaction/NPS-style scores from faculty, students, and OSPO staff
+- 2 to 5 academic projects get mentoring
+- At least 1 project completes the readiness checklist and applies to become a PyTorch Foundation incubating project
 
-### B. Hosted Project Enablement Track (Objective 2)
+### B. Contributors
 
-- number of academic users trained per project track (PyTorch/vLLM/Ray/DeepSpeed)
-- number of academic-origin PRs/issues merged/closed across hosted repos (and median time-to-merge)
-- number of academic participants in public TAC meetings / working groups (where applicable)
+- At least 3 cohort members continue to contribute after the workshop
 
-### C. PyTorch Ecosystem Fast Track (Objective 3)
+### C. Reach
 
-- number of projects entering Stage 0
-- number completing OSRR
-- number accepted as ecosystem projects
-- number of projects progressing to foundation-hosted application
-- number accepted
+- At least 5 new universities and academic OSPOs know the PyTorch Foundation and take part in PyTorch Conference
+- A first presence at one scientific conference, such as NeurIPS
 
-### D. Community sustainability and diversity
+### D. Visibility and learning
 
-- Number of academic institutions contributing
-- Maintainer distribution across institutions (elephant factor)
+- 6 blog posts published
+- 1 award for the best academic project
+- Academic survey completed and used to plan 2028
 
 ## 9) Success Definition
 
-The program is considered successful when it demonstrates, year-over-year:
+The 2027 pilot is considered successful when it demonstrates:
 
-- **Capability:** A measurable improvement in academic open source project hygiene and sustainability (readiness checklist pass rates, adoption of governance/security/release practices).
-- **Adoption & contribution:** Material growth in academic usage and upstream contribution to PyTorch Foundation-hosted projects, with reduced friction (faster PR cycle times, higher repeat contributor rates).
-- **Pipeline throughput with quality:** A predictable flow of academic projects entering the ecosystem and a smaller, high-quality subset progressing to hosting candidacy aligned with TAC expectations and Foundation processes.
-- **Network effects:** A durable network of labs and OSPOs that sustains collaboration beyond individual grants and student cohorts.
+- **Sustainable projects:** mentored academic projects adopt the practices in the readiness checklist, and at least one applies for Foundation incubation.
+- **Sustained participation:** students and researchers continue to contribute after the workshop.
+- **Reach:** more universities and academic OSPOs take part in PyTorch Conference and in the Foundation’s communities.
+- **Value for members:** member companies meet student maintainers and see new research projects early, before they are widely adopted.
+- **Learning:** the academic survey shows what universities need, and the Working Group uses it to plan 2028.
 
-## 11) Risks and Mitigations
+## 10) Risks and Mitigations
 
-- **Academic maintainer churn:** mitigate with maintainer rotation plans, institutional OSPO involvement, and contributor pipeline.
-- **Misaligned incentives (papers vs maintenance):** mitigate by recognizing maintainer work (badges, showcases), and promoting citation-friendly artifact practices.
-- **Project quality variance:** mitigate with OSRR gating and mentorship before ecosystem/hosting steps.
-- **Privacy and stale contacts:** mitigate via opt-in + periodic validation + retention policy.
-
----
-
-## Appendix A. Labs & OSPO Directory Database (Design and Operating Policy)
-
-### A. Purpose
-
-Create an actionable, up-to-date directory to support outreach, collaboration, and rapid matching between:
-
-- academic capabilities (labs),
-- institutional open source governance (university OSPOs / research software engineering groups),
-- PyTorch Foundation projects and mentorship needs
-
-### B. Data fields (recommended schema)
-
-#### Institution
-
-- University/Institute name
-- Country/region
-- Primary website
-
-#### Lab / Group
-
-- Lab name
-- Department
-- PI/Director
-- Lab site
-- Research themes (controlled vocabulary)
-
-#### OSPO / Research Software org
-
-- Org name
-- Remit (policy vs engineering vs community)
-- Supported license policies
-- Onboarding requirements
-
-#### Contacts (opt-in)
-
-- Name
-- Role
-- Email
-- Preferred contact channel
-- Consent flag
-- Last-validated date
-
-#### Project portfolio
-
-- Project names
-- Repo URLs
-- Domains (LLM, CV, robotics, compilers, distributed, inference, etc.)
-- Maturity signals: license, governance, CI, release cadence, security policy
-
-#### Engagement history
-
-- Attended events
-- Mentorship interactions
-- Pipeline stage (if participating)
-- Notes with retention policy
-
-### C. Collection and maintenance
-
-#### Sources
-
-- opt-in submissions via a public form,
-- curated outreach from conferences and workshops,
-- periodic validation emails (“confirm or update your entry”)
-
-#### Data stewardship
-
-- explicit consent for storing personal contact info,
-- role-based access controls (staff vs volunteer mentors),
-- retention policy (e.g., purge unvalidated contacts after N months),
-- compliance alignment with applicable privacy regulations (e.g., GDPR where relevant)
-
-### D. Outputs
-
-- Quarterly “target list” for outreach campaigns (by domain, region, maturity)
-- Partner matching for contributor sprints and capstone projects
-- Funnel analytics (directory → event → contribution → ecosystem/hosting)
+- **Academic maintainer churn:** mitigate with maintainer succession plans, institutional OSPO involvement, and contributor onboarding.
+- **Misaligned incentives (papers vs maintenance):** mitigate by recognizing maintainer work (award, badges, showcases, blog posts).
+- **Project quality variance:** mitigate with the readiness checklist and mentorship before ecosystem/hosting steps.
+- **Student access:** mitigate with a free workshop and travel grants for students who could not otherwise attend.
 
 ---
 
-## Appendix B. Initial Implementation Plan (Practical Sequencing)
+## Appendix A. 2027 Implementation Plan (Practical Sequencing)
 
-- Stand up OSRR checklist + templates bundle; launch first bootcamp cohort.
-- Publish the four hosted-project workshop kits and run one multi-project “stack” workshop.
-- Build/source/deploy platform for directory and program management.
-- Launch directory v1 (opt-in form + validation workflow) and begin targeted outreach by domain.
-- Start the Academic Fast Track with a small pilot (5–10 labs), then scale after refining gates and mentorship capacity.
+- Publish the repository template and the readiness checklist.
+- Promote the academic workshop alongside the conference CFP, in coordination with academic calendars.
+- Select the mentoring cohort (2 to 5 academic projects) and connect each project with mentors.
+- Open the student travel grant process for PyTorch Conference North America.
+- Run the free academic workshop linked to PyTorch Conference, and present the best academic project award.
+- Showcase the program at one scientific conference (for example, NeurIPS).
+- Publish blog posts throughout the year.
+- Run the academic survey, report results to the Governing Board, and recommend whether to continue in 2028.
